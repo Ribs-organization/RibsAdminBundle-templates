@@ -14,4 +14,30 @@ nav#left-nav {
         font-family: $sec-font;
         border-bottom: 1px solid $left-nav-border-link;
     }
+
+    ul {
+        li {
+            font-size: .875rem;
+            font-family: $main-font;
+            overflow: hidden;
+
+            a {
+                border-bottom: 1px solid $left-nav-border-link;
+                color: $left-nav-link-color;
+                padding: .9375rem 1.5625rem;
+                font-weight: 400;
+                display: block;
+                width: 100%;
+
+                i {
+                    min-width: 1.25rem;
+                    font-size: 90%;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: $left-nav-icon-color;
+                    margin-right: .375rem;
+                }
+            }
+        }
+    }
 }

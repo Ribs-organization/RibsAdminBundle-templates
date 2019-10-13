@@ -1,0 +1,20 @@
+/* ------ FONT FAMILIES ------ */
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/lobster.ttf);
+}
+
+@font-face {
+    font-family: noto-sans;
+    src: url(../fonts/noto-sans.ttf);
+}
+
+$main-font: noto-sans;
+$sec-font: lobster;
+
+
+/* ------ LEFT NAV ------*/
+$left-nav-background: #ffffff;
+$left-nav-title-background: #39bde6;
+$left-nav-title-color: #2581a7;
+$left-nav-border-link: #e1e5eb;

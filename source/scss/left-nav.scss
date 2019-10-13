@@ -2,5 +2,16 @@ nav#left-nav {
     width: 300px;
     height: 100vh;
     position: fixed;
-    background: #ffffff;
+    background: $left-nav-background;
+
+    .title {
+        height: 3.75rem;
+        font-size: 1rem;
+        line-height: 3.75rem;
+        text-align: center;
+        background-color: $left-nav-title-background;
+        color: $left-nav-title-color;
+        font-family: $sec-font;
+        border-bottom: 1px solid $left-nav-border-link;
+    }
 }

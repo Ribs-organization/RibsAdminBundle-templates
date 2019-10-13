@@ -41,6 +41,7 @@
     },
     "dependencies": {
         "ribs-core": "^0.0.9-4",
-        "ribs-grid": "^1.0.3"
+        "ribs-grid": "^1.0.3",
+        "ribs-reset-css": "^1.0.2"
     }
 }

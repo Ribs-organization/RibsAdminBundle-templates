@@ -4569,6 +4569,11 @@ ribs-grid@^1.0.3:
   resolved "https://registry.yarnpkg.com/ribs-grid/-/ribs-grid-1.0.3.tgz#2c3c0f7d20460f8cec715c318ed36ec8ee6ad93e"
   integrity sha512-1P+QvkFWbQmPDx8NIpkQpjm9uhUo4a7mKDd+S6calVN7LC826WQEpBijHLHTFqVHmtXmdnHe+HsAEUDWzBAe4A==
 
+ribs-reset-css@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/ribs-reset-css/-/ribs-reset-css-1.0.2.tgz#c5ba1a85f32f95b7eb9411bdbdb8b716b32b103c"
+  integrity sha512-KWncwYi1vk+05w0e5GEAxM4PReFyeU7ScUFSEjyFP/Mb/5gsjlB9sxnaw0YOiEA5/NN+XGm6SiRBXUHepwpE7A==
+
 rimraf@2, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"

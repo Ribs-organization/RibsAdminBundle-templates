@@ -3,6 +3,10 @@ nav#left-nav {
     height: 100vh;
     position: fixed;
     background: $left-nav-background;
+    box-shadow: 0 0.125rem 9.375rem $left-nav-box-shadow,
+        0 0.25rem 0.5rem $left-nav-box-shadow1,
+        0 0.9375rem 1.375rem $left-nav-box-shadow,
+        0 0.4375rem 2.1875rem $left-nav-box-shadow2;
 
     .title {
         height: 3.75rem;

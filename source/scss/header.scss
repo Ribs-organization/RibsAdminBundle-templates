@@ -3,4 +3,30 @@ header {
     box-shadow: 0 0.125rem 0.625rem $header-box-shadow;
     background: $header-background;
     position: sticky;
+    
+    form {
+        width: 80%;
+        float: left;
+        line-height: 3.75rem;
+    }
+    
+    ul {
+        float: right;
+        width: 20%;
+        line-height: 2.45rem;
+        
+        li {
+            display: inline-block;
+            border-left: 1px solid $header-border-link;
+            padding:  0.6667rem;
+            
+            &#notif {
+                width: 60px;
+            }
+            
+            &#profile {
+            
+            }
+        }
+    }
 }

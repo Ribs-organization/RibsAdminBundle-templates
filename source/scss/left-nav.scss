@@ -2,6 +2,7 @@ nav#left-nav {
     width: 300px;
     height: 100vh;
     position: fixed;
+    z-index: 1;
     background: $left-nav-background;
     box-shadow: 0 0.125rem 9.375rem $left-nav-box-shadow,
         0 0.25rem 0.5rem $left-nav-box-shadow1,

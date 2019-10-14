@@ -8,6 +8,18 @@ header {
         width: 80%;
         float: left;
         line-height: 3.75rem;
+        
+        input {
+            height: auto;
+            padding: .4375rem .75rem;
+            font-size: .8125rem;
+            line-height: 3.5;
+            color: $header-input-color;
+            font-weight: 300;
+            border: 0;
+            box-shadow: none;
+            width: 98%;
+        }
     }
     
     ul {

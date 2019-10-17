@@ -12,7 +12,7 @@ header {
         
         i {
             padding-left: 15px;
-            line-height: 4;
+            line-height: 4 !important;
             float: left;
             color: $header-input-color;
         }

@@ -2153,11 +2153,6 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-font-awesome@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
-  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
-
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -4582,10 +4577,10 @@ ribs-core@^0.0.9-4:
   resolved "https://registry.yarnpkg.com/ribs-core/-/ribs-core-0.0.9-4.tgz#0b92738d23daab753a992c0b5e986def1824e809"
   integrity sha512-3V6VkEViZyaFjtKmAI3/vcpBF+fUMKlpRbdn+sg6b6eC7qVr3CDCJzZpnEm8boD+hWT/xH92qJgJ/nQzj7ePog==
 
-ribs-grid@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/ribs-grid/-/ribs-grid-1.0.3.tgz#2c3c0f7d20460f8cec715c318ed36ec8ee6ad93e"
-  integrity sha512-1P+QvkFWbQmPDx8NIpkQpjm9uhUo4a7mKDd+S6calVN7LC826WQEpBijHLHTFqVHmtXmdnHe+HsAEUDWzBAe4A==
+ribs-grid@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/ribs-grid/-/ribs-grid-1.0.5.tgz#82074cb719ffc2925b62d15f133231734d9d7504"
+  integrity sha512-QfOy6Z5TsLpSw2p7nbMsFUBgwOcLLLvsFkVIPWLjSCGUi9OxrnydzvuejcrFxPVkCXxHZr2yQ7SVErBVqfZQOA==
 
 ribs-reset-css@^1.0.2:
   version "1.0.2"

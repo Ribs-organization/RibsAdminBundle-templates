@@ -41,9 +41,9 @@
         "webpack-cli": "^3.2.1"
     },
     "dependencies": {
+	  	"@fortawesome/fontawesome-free": "^5.11.2",
         "ribs-core": "^0.0.9-4",
         "ribs-grid": "^1.0.3",
-        "ribs-reset-css": "^1.0.2",
-	  	"font-awesome": "^4.7.0"
+        "ribs-reset-css": "^1.0.2"
     }
 }

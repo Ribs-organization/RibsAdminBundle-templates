@@ -1,18 +1,44 @@
 main {
-    .subtitle {
-        letter-spacing: .125rem;
-        color: $main-page-subtitle-color;
-        font-size: .925rem;
-        text-transform: uppercase;
-        display: block;
+    .page-title {
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        
+        span {
+            letter-spacing: .125rem;
+            color: $main-page-subtitle-color;
+            font-size: .925rem;
+            text-transform: uppercase;
+            display: block;
+        }
+        
+        h3 {
+            font-size: 1.625rem;
+            font-weight: 500;
+            line-height: 1;
+            margin: 0;
+            padding: 0;
+            color: $main-page-title-color;
+        }
     }
     
-    .page-title {
-        font-size: 1.625rem;
-        font-weight: 500;
-        line-height: 1;
-        margin: 0;
-        padding: 0;
-        color: $main-page-title-color;
+    .block {
+        background: $main-block-background;
+        box-shadow: 0 2px 0 $main-block-shadow,
+            0 4px 8px $main-block-shadow1,
+            0 10px 10px $main-block-shadow2,
+            0 7px 70px $main-block-shadow3;
+        border-radius: .625rem;
+        
+        header {
+            padding: 1rem 1rem;
+            border-bottom: 1px solid $main-block-header-border;
+            
+            h6 {
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: $main-block-header-title-color;
+            }
+        }
     }
 }

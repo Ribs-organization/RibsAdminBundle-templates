@@ -31,6 +31,7 @@ main {
         
         header {
             padding: 1rem 1rem;
+            margin-bottom: 1rem;
             border-bottom: 1px solid $main-block-header-border;
             
             h5 {
@@ -39,6 +40,12 @@ main {
                 line-height: 1.5rem;
                 color: $main-block-header-title-color;
             }
+        }
+        
+        h6 {
+            color: $main-block-h6-color;
+            font-weight: bold;
+            margin-bottom: .5rem;
         }
     }
 }

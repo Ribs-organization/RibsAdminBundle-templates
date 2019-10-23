@@ -42,7 +42,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.11.2",
-        "ribs-checkbox": "^1.1.6",
+        "ribs-checkbox": "^1.1.7",
         "ribs-core": "^0.0.9-4",
         "ribs-grid": "^1.0.5",
         "ribs-reset-css": "^1.0.2"

@@ -2,7 +2,7 @@ form.ribs-form {
     .form-section {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        border-bottom: 1px solid rgba(0,0,0,.125);
+        border-bottom: 1px solid $form-section-border;
     }
     
     .form-group {

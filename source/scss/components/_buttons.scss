@@ -98,6 +98,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
         background: $ribs-button-background-hover;
         box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-box-shadow-hover1;
     }
+
+    &.outline {
+        background: transparent;
+        color: $ribs-button-background;
+
+        &:hover {
+            color: $ribs-button-color-hover;
+            background: $ribs-button-background;
+        }
+    }
     
     &.secondary {
         color: $ribs-button-secondary-color;
@@ -109,6 +119,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             border-color: $ribs-button-secondary-border-hover;
             background: $ribs-button-secondary-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-secondary-box-shadow-hover1;
+        }
+
+        &.outline {
+            background: transparent;
+            color: $ribs-button-secondary-background;
+
+            &:hover {
+                color: $ribs-button-secondary-color-hover;
+                background: $ribs-button-secondary-background;
+            }
         }
     }
     
@@ -123,6 +143,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             background: $ribs-button-success-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-success-box-shadow-hover1;
         }
+
+        &.outline {
+            background: transparent;
+            color: $ribs-button-success-background;
+
+            &:hover {
+                color: $ribs-button-success-color-hover;
+                background: $ribs-button-success-background;
+            }
+        }
     }
     
     &.danger {
@@ -135,6 +165,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             border-color: $ribs-button-danger-border-hover;
             background: $ribs-button-danger-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-danger-box-shadow-hover1;
+        }
+
+        &.outline {
+            background: transparent;
+            color: $ribs-button-danger-background;
+
+            &:hover {
+                color: $ribs-button-danger-color-hover;
+                background: $ribs-button-danger-background;
+            }
         }
     }
     
@@ -149,6 +189,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             background: $ribs-button-warning-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-warning-box-shadow-hover1;
         }
+
+        &.outline {
+            background: transparent;
+            color: $ribs-button-warning-color-hover;
+
+            &:hover {
+                color: $ribs-button-warning-color-hover;
+                background: $ribs-button-warning-background;
+            }
+        }
     }
 
     &.info {
@@ -161,6 +211,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             border-color: $ribs-button-info-border-hover;
             background: $ribs-button-info-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-info-box-shadow-hover1;
+        }
+
+        &.outline {
+            background: transparent;
+            color: $ribs-button-info-background;
+
+            &:hover {
+                color: $ribs-button-info-color-hover;
+                background: $ribs-button-info-background;
+            }
         }
     }
 
@@ -175,6 +235,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             background: $ribs-button-dark-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-dark-box-shadow-hover1;
         }
+
+        &.outline {
+            background: transparent;
+            color: $ribs-button-dark-background;
+
+            &:hover {
+                color: $ribs-button-dark-color-hover;
+                background: $ribs-button-dark-background;
+            }
+        }
     }
 
     &.white {
@@ -187,6 +257,16 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             border-color: $ribs-button-white-border-hover;
             background: $ribs-button-white-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-white-box-shadow-hover1;
+        }
+
+        &.outline {
+            background: transparent;
+            color: $ribs-button-white-color;
+
+            &:hover {
+                color: $ribs-button-white-color-hover;
+                background: $ribs-button-white-background;
+            }
         }
     }
 }

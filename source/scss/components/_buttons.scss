@@ -46,6 +46,15 @@ $ribs-button-warning-border: #ffb400;
 $ribs-button-warning-border-hover: #e6a200;
 $ribs-button-warning-box-shadow-hover1: rgba(255,180,0,.25);
 
+/* --- specific colors info --- */
+$ribs-button-info-color: #ffffff;
+$ribs-button-info-color-hover: #ffffff;
+$ribs-button-info-background: #00b8d8;
+$ribs-button-info-background-hover: #00a2bf;
+$ribs-button-info-border: #00b8d8;
+$ribs-button-info-border-hover: #00a2bf;
+$ribs-button-info-box-shadow-hover1: rgba(0,184,216,.25);
+
 
 .ribs-button {
     font-weight: 400;
@@ -120,6 +129,19 @@ $ribs-button-warning-box-shadow-hover1: rgba(255,180,0,.25);
             border-color: $ribs-button-warning-border-hover;
             background: $ribs-button-warning-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-warning-box-shadow-hover1;
+        }
+    }
+
+    &.info {
+        color: $ribs-button-info-color;
+        border-color: $ribs-button-info-border;
+        background: $ribs-button-info-background;
+
+        &:hover {
+            color: $ribs-button-info-color-hover;
+            border-color: $ribs-button-info-border-hover;
+            background: $ribs-button-info-background-hover;
+            box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-info-box-shadow-hover1;
         }
     }
 }

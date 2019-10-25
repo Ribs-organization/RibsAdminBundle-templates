@@ -1,0 +1,59 @@
+/* --- general ---*/
+$ribs-button-box-shadow-hover: rgba(0,0,0,.05);
+
+/* --- specific colors primary (general) --- */
+$ribs-button-color: #ffffff;
+$ribs-button-color-hover: #ffffff;
+$ribs-button-background: #007bff;
+$ribs-button-background-hover: #006fe6;
+$ribs-button-border: #007bff;
+$ribs-button-border-hover: #006fe6;
+$ribs-button-box-shadow-hover1: rgba(0,123,255,.25);
+
+/* --- specific colors secondary --- */
+$ribs-button-secondary-color: #ffffff;
+$ribs-button-secondary-color-hover: #ffffff;
+$ribs-button-secondary-background: #5a6169;
+$ribs-button-secondary-background-hover: #4e545b;
+$ribs-button-secondary-border: #5a6169;
+$ribs-button-secondary-border-hover: #4e545b;
+$ribs-button-secondary-box-shadow-hover1: rgba(90,97,105,.25);;
+
+
+.ribs-button {
+    font-weight: 400;
+    border: 1px solid;
+    padding: .5625rem 1rem;
+    margin-right: .5rem;
+    font-size: .75rem;
+    line-height: 1.125;
+    border-radius: .25rem;
+    transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
+    color: $ribs-button-color;
+    border-color: $ribs-button-border;
+    background: $ribs-button-background;
+    
+    &:not(:disabled) {
+        cursor: pointer;
+    }
+    
+    &:hover {
+        color: $ribs-button-color-hover;
+        border-color: $ribs-button-border-hover;
+        background: $ribs-button-background-hover;
+        box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-box-shadow-hover1;
+    }
+    
+    &.secondary {
+        color: $ribs-button-secondary-color;
+        border-color: $ribs-button-secondary-border;
+        background: $ribs-button-secondary-background;
+        
+        &:hover {
+            color: $ribs-button-secondary-color-hover;
+            border-color: $ribs-button-secondary-border-hover;
+            background: $ribs-button-secondary-background-hover;
+            box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-secondary-box-shadow-hover1;
+        }
+    }
+}

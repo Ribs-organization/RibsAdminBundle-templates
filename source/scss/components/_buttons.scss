@@ -62,7 +62,17 @@ $ribs-button-dark-background: #212529;
 $ribs-button-dark-background-hover: #16181b;
 $ribs-button-dark-border: #212529;
 $ribs-button-dark-border-hover: #16181b;
-$ribs-button-dark-box-shadow-hover1: rgba(0,0,0,.125);
+$ribs-button-dark-box-shadow-hover1: rgba(0,0,0,.25);
+
+
+/* --- specific colors white --- */
+$ribs-button-white-color: #3d5170;
+$ribs-button-white-color-hover: #3d5170;
+$ribs-button-white-background: #ffffff;
+$ribs-button-white-background-hover: #ffffff;
+$ribs-button-white-border: #e1e5eb;
+$ribs-button-white-border-hover: #e1e5eb;
+$ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
 
 .ribs-button {
@@ -164,6 +174,19 @@ $ribs-button-dark-box-shadow-hover1: rgba(0,0,0,.125);
             border-color: $ribs-button-dark-border-hover;
             background: $ribs-button-dark-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-dark-box-shadow-hover1;
+        }
+    }
+
+    &.white {
+        color: $ribs-button-white-color;
+        border-color: $ribs-button-white-border;
+        background: $ribs-button-white-background;
+
+        &:hover {
+            color: $ribs-button-white-color-hover;
+            border-color: $ribs-button-white-border-hover;
+            background: $ribs-button-white-background-hover;
+            box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-white-box-shadow-hover1;
         }
     }
 }

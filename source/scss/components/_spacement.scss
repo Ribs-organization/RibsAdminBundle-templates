@@ -1,0 +1,41 @@
+@for $i from 0 through 10 {
+    .m#{$i} {
+        margin: #{$i}rem;
+    }
+
+    .mt#{$i} {
+        margin-top: #{$i}rem;
+    }
+
+    .mb#{$i} {
+        margin-bottom: #{$i}rem;
+    }
+
+    .ml#{$i} {
+        margin-left: #{$i}rem;
+    }
+
+    .mr#{$i} {
+        margin-right: #{$i}rem;
+    }
+
+    .p#{$i} {
+        margin: #{$i}rem;
+    }
+
+    .pt#{$i} {
+        margin-top: #{$i}rem;
+    }
+
+    .pb#{$i} {
+        margin-bottom: #{$i}rem;
+    }
+
+    .pl#{$i} {
+        margin-left: #{$i}rem;
+    }
+
+    .pr#{$i} {
+        margin-right: #{$i}rem;
+    }
+}

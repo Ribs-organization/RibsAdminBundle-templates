@@ -56,4 +56,34 @@ form.ribs-form {
             }
         }
     }
+
+    .input-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+
+        .input-prepend {
+            margin-right: -1px;
+            display: flex;
+            font-size: .8125rem;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #abb6bf;
+            background-color: #fff;
+            border: 1px solid #e1e5eb;
+            align-items: center;
+            padding: .375rem .75rem;
+            text-align: center;
+            white-space: nowrap;
+            border-radius: .25rem 0 0 .25rem;
+        }
+
+        .form-control {
+            width: auto;
+            flex: 1 1 auto;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
 }

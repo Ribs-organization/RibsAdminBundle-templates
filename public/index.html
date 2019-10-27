@@ -180,15 +180,15 @@
 									<div class="cxs-12 cmd-6">
 										<h6>Forms</h6>
 
-										<div class="cxs-12 form-group">
+										<div class="form-group">
 											<label for="name">Prénom</label>
 											<input type="text" class="form-control" id="name" name="name">
 										</div>
-										<div class="cxs-12 form-group mt1">
+										<div class="form-group mt1">
 											<label for="lastname">Nom</label>
 											<input type="text" class="form-control" id="lastname" name="lastname">
 										</div>
-										<div class="cxs-12 form-group mt1">
+										<div class="form-group mt1">
 											<div class="input-group">
 												<div class="input-prepend">
 													<span>test</span>
@@ -199,6 +199,32 @@
 									</div>
 									<div class="cxs-12 cmd-6">
 										<h6>Validations</h6>
+
+										<div class="row">
+											<div class="cxs-12 cmd-6 form-group">
+												<label for="namevalid">Prénom</label>
+												<input type="text" class="form-control is-valid" id="namevalid" name="namevalid" value="Sierra">
+												<div>Ce prénom est valide</div>
+											</div>
+											<div class="cxs-12 cmd-6 form-group">
+												<label for="lastnamevalid">Nom</label>
+												<input type="text" class="form-control is-invalid" id="lastnamevalid" name="lastnamevalid" value="Brooks">
+												<div>Ce nom est invalide</div>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="cxs-12 cmd-6 form-group">
+												<label for="username">Nom d'utilisateur</label>
+												<input type="text" class="form-control is-invalid" id="username" name="username" value="s.brooks">
+												<div>Ce nom d'utilisateur est déjà utilisé</div>
+											</div>
+											<div class="cxs-12 cmd-6 form-group">
+												<label for="email">Email</label>
+												<input type="text" class="form-control is-valid" id="email" name="email" value="s.brooks@example.com">
+												<div>Cet email est valide</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</form>

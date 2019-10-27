@@ -67,7 +67,7 @@ form.ribs-form {
                 }
             }
 
-            + div {
+            + div:not(.input-append) {
                 margin-top: .25rem;
                 font-size: 80%;
             }
@@ -80,8 +80,7 @@ form.ribs-form {
         align-items: stretch;
         width: 100%;
 
-        .input-prepend {
-            margin-right: -1px;
+        .input-prepend, .input-append {
             display: flex;
             font-size: .8125rem;
             font-weight: 300;
@@ -93,7 +92,17 @@ form.ribs-form {
             padding: .375rem .75rem;
             text-align: center;
             white-space: nowrap;
+            margin-top: 0;
+        }
+
+        .input-prepend {
+            margin-right: -1px;
             border-radius: .25rem 0 0 .25rem;
+        }
+
+        .input-append {
+            margin-left: -1px;
+            border-radius: 0 .25rem .25rem 0;
         }
 
         .form-control {

@@ -93,6 +93,15 @@ form.ribs-form {
             text-align: center;
             white-space: nowrap;
             margin-top: 0;
+
+            .ribs-button {
+                border: none;
+                margin-right: 0;
+
+                &:hover {
+                    box-shadow: 0 0.125rem 0.625rem rgba(129, 142, 163, .2), 0 0.0625rem 0.125rem rgba(129, 142, 163, .3);
+                }
+            }
         }
 
         .input-prepend {

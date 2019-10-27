@@ -29,6 +29,7 @@ $ribs-button-success-background: #17c671;
 $ribs-button-success-background-hover: #14af64;
 $ribs-button-success-border: #17c671;
 $ribs-button-success-border-hover: #14af64;
+$ribs-button-success-border-active: #129857;
 $ribs-button-success-box-shadow-hover1: rgba(23,198,113,.25);
 
 /* --- specific colors danger --- */
@@ -159,6 +160,13 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             border-color: $ribs-button-success-border-hover;
             background: $ribs-button-success-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-success-box-shadow-hover1;
+        }
+
+        &:active {
+            color: $ribs-button-color-hover;
+            background-color: $ribs-button-success-background-hover;
+            border-color: $ribs-button-success-border-active;
+            box-shadow: $ribs-button-box-shadow-active;
         }
 
         &.outline {

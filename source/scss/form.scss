@@ -3,6 +3,10 @@ form.ribs-form {
         padding-top: 1rem;
         padding-bottom: 1rem;
         border-bottom: 1px solid $form-section-border;
+
+        &:last-child {
+            border-bottom: none;
+        }
     }
     
     .form-group {

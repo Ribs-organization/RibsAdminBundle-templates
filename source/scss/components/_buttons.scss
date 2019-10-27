@@ -1,5 +1,6 @@
 /* --- general ---*/
 $ribs-button-box-shadow-hover: rgba(0,0,0,.05);
+$ribs-button-box-shadow-active: inset 0 3px 5px rgba(0,0,0,.125);;
 
 /* --- specific colors primary (general) --- */
 $ribs-button-color: #ffffff;
@@ -8,6 +9,7 @@ $ribs-button-background: #007bff;
 $ribs-button-background-hover: #006fe6;
 $ribs-button-border: #007bff;
 $ribs-button-border-hover: #006fe6;
+$ribs-button-border-active: #0062cc;
 $ribs-button-box-shadow-hover1: rgba(0,123,255,.25);
 
 /* --- specific colors secondary --- */
@@ -17,6 +19,7 @@ $ribs-button-secondary-background: #5a6169;
 $ribs-button-secondary-background-hover: #4e545b;
 $ribs-button-secondary-border: #5a6169;
 $ribs-button-secondary-border-hover: #4e545b;
+$ribs-button-secondary-border-active: #42484e;
 $ribs-button-secondary-box-shadow-hover1: rgba(90,97,105,.25);
 
 /* --- specific colors success --- */
@@ -99,6 +102,13 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
         box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-box-shadow-hover1;
     }
 
+    &:active {
+        color: $ribs-button-color-hover;
+        background-color: $ribs-button-background-hover;
+        border-color: $ribs-button-border-active;
+        box-shadow: $ribs-button-box-shadow-active;
+    }
+
     &.outline {
         background: transparent;
         color: $ribs-button-background;
@@ -119,6 +129,13 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
             border-color: $ribs-button-secondary-border-hover;
             background: $ribs-button-secondary-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-secondary-box-shadow-hover1;
+        }
+
+        &:active {
+            color: $ribs-button-color-hover;
+            background-color: $ribs-button-secondary-background-hover;
+            border-color: $ribs-button-secondary-border-active;
+            box-shadow: $ribs-button-box-shadow-active;
         }
 
         &.outline {

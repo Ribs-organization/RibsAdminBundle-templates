@@ -61,8 +61,15 @@ $form-group-input-background: #ffffff;
 $form-group-input-border: #e1e5eb;
 $form-group-input-border-hover: #e1e5eb;
 $form-group-input-shadow-hover: rgba(0, 123, 255, .1);
+
+/* standard input */
 $form-group-input-shadow-hover1: rgba(0, 0, 0, .06);
 $form-group-input-color: #495057;
 $form-group-input-focus-color: #495057;
 $form-group-input-focus-background: #ffffff;
 $form-group-input-focus-border: #007bff;
+
+/* valid input */;
+$form-group-input-valid-shadow: rgba(23,198,113,.1);
+$form-group-input-valid-border: #17c671;
+$form-group-input-valid-div-color: #17c671;

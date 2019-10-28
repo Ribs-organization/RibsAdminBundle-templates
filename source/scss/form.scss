@@ -50,11 +50,11 @@ form.ribs-form {
             }
 
             &.is-valid {
-                border-color: #17c671;
-                box-shadow: 0 5px 11.5px rgba(23,198,113,.1);
+                border-color: $form-group-input-valid-border;
+                box-shadow: 0 5px 11.5px $form-group-input-valid-shadow;
 
                 + div {
-                    color: #17c671;
+                    color: $form-group-input-valid-div-color;
                 }
             }
 

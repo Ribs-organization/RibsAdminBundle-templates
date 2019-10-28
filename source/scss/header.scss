@@ -5,6 +5,7 @@ header#main {
     background: $header-background;
     color: $header-color;
     position: sticky;
+    top: 0;
     
     form {
         width: 85%;

@@ -103,9 +103,9 @@ form.ribs-form {
             font-size: .8125rem;
             font-weight: 300;
             line-height: 1.5;
-            color: #abb6bf;
-            background-color: #fff;
-            border: 1px solid #e1e5eb;
+            color: $form-group-input-group-color;
+            background-color: $form-group-input-group-background;
+            border: 1px solid $form-group-input-group-border;
             align-items: center;
             padding: .375rem .75rem;
             text-align: center;
@@ -118,7 +118,7 @@ form.ribs-form {
                 line-height: 1.4;
 
                 &:hover {
-                    box-shadow: 0 0.125rem 0.625rem rgba(129, 142, 163, .2), 0 0.0625rem 0.125rem rgba(129, 142, 163, .3);
+                    box-shadow: 0 0.125rem 0.625rem $form-group-input-group-button-shadow, 0 0.0625rem 0.125rem $form-group-input-group-button-shadow1;
                 }
             }
         }

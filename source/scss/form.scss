@@ -18,7 +18,7 @@ form.ribs-form {
             display: inline-block;
             font-weight: 400;
             margin-bottom: .3rem;
-            color: #5a6169;
+            color: $form-group-label-color;
             cursor: pointer;
         }
 
@@ -29,9 +29,9 @@ form.ribs-form {
             padding: .4375rem .75rem;
             font-size: .8125rem;
             line-height: 1.5;
-            color: #495057;
-            background-color: #fff;
-            border: 1px solid #e1e5eb;
+            color: $form-group-input-color;
+            background-color: $form-group-input-background;
+            border: 1px solid $form-group-input-border;
             font-weight: 300;
             will-change: border-color,box-shadow;
             border-radius: .25rem;
@@ -39,14 +39,14 @@ form.ribs-form {
             transition: box-shadow 250ms cubic-bezier(.27,.01,.38,1.06),border 250ms cubic-bezier(.27,.01,.38,1.06);
 
             &:hover {
-                border-color: #b3bdcc;
+                border-color: $form-group-input-border-hover;
             }
 
             &:focus {
-                color: #495057;
-                background-color: #ffffff;
-                border-color: #007bff;
-                box-shadow: 0 0.313rem 0.719rem rgba(0, 123, 255, .1), 0 0.156rem 0.125rem rgba(0, 0, 0, .06);
+                color: $form-group-input-focus-color;
+                background-color: $form-group-input-focus-background;
+                border-color: $form-group-input-focus-border;
+                box-shadow: 0 0.313rem 0.719rem $form-group-input-shadow-hover, 0 0.156rem 0.125rem $form-group-input-shadow-hover1;
             }
 
             &.is-valid {

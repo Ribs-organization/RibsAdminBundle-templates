@@ -79,6 +79,24 @@ form.ribs-form {
         flex-wrap: wrap;
         align-items: stretch;
         width: 100%;
+        
+        &.no-separation {
+            .input-prepend {
+                border-right: transparent;
+                
+                + .form-control {
+                    border-left: transparent;
+                }
+            }
+    
+            .input-append {
+                border-left: transparent;
+            }
+            
+            .form-control:not(:last-child) {
+                border-right: transparent;
+            }
+        }
 
         .input-prepend, .input-append {
             display: flex;

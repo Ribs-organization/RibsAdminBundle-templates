@@ -12,7 +12,11 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: [path.join(__dirname, 'source/'), path.join(__dirname, 'node_modules/ribs-core/')],
+        include: [
+          path.join(__dirname, 'source/'),
+          path.join(__dirname, 'node_modules/ribs-core/'),
+          path.join(__dirname, 'node_modules/ribs-api/')
+        ],
         loader: 'babel-loader',
       },
       {

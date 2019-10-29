@@ -38,6 +38,17 @@ class RibsAjax {
         this.whereLoadTag.innerHTML = data;
       });
   }
+
+  /**
+   * method to laod a specifiq page by call this url
+   * @param pageUrl
+   */
+  loadPage(pageUrl) {
+    this.api.get(pageUrl, 'html')
+      .then(data => {
+        this.whereLoadTag.innerHTML = data;
+      });
+  }
 }
 
 export default RibsAjax;

@@ -14,7 +14,7 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "components/buttons";
 @import "components/spacement";
 
-body {
+html, body {
     font-size: 15px;
     font-family: $main-font;
     background: $body-background;

@@ -1,6 +1,13 @@
 import RibsApi from "ribs-api";
 
 class RibsAjax {
+  /**
+   * constructor
+   * @param whereLoadTag
+   * @param LinksToTriggerTag
+   * @param baseUrl
+   * @param progressBarTag
+   */
   constructor(whereLoadTag, LinksToTriggerTag, baseUrl = '', progressBarTag = 'none') {
     this.whereLoadTag = document.querySelector(whereLoadTag);
     this.LinksToTriggerTag = document.querySelector(LinksToTriggerTag);

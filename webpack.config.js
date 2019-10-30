@@ -4,9 +4,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
-  entry: ['./source/scss/style.scss', './source/js/index.js'],
+  entry: {
+    index: './source/js/index.js'
+  },
   output: {
-    filename: 'js/index.js'
+    path: path.resolve(__dirname, './dist'),
+    filename: 'js/[name].js',
+    chunkFilename: '[id].chunk.js',
   },
   module: {
     rules: [

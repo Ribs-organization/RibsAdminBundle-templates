@@ -5292,10 +5292,10 @@ rgba-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
-ribs-api@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/ribs-api/-/ribs-api-1.0.2.tgz#d01b3094dee34052678bad51fc7bd01a1daaf5e2"
-  integrity sha512-4t3zzZPZuNfigB82dU5UDCJDV5UKexxg6oEYZZYCal30oPnHHPoGOtVcxWTWpjS/XpBxz4qikEinNIt/0MGRjw==
+ribs-api@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ribs-api/-/ribs-api-1.0.3.tgz#63e1e0d313d670f5e902edac4e0a6aa5ee590f81"
+  integrity sha512-n2ztJiMOyhvcxmXEHg74Mv1cXen9vKlN4NOPk0WCkWJFNPIwIH03hxRC4vogWD+A2NigEMgAWzWu99cUf0vCtg==
 
 ribs-checkbox@^1.1.9:
   version "1.1.9"

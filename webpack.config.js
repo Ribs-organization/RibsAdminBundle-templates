@@ -5,13 +5,12 @@ const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
   entry: {
-    index: './source/js/index.js',
-    test: './source/js/test.js'
+    'css/style': './source/scss/style.scss',
+    'js/index': './source/js/index.js',
+    'js/test': './source/js/test.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'js/[name].js',
-    chunkFilename: '[id].chunk.js',
   },
   module: {
     rules: [

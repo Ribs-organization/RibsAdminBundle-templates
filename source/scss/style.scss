@@ -37,6 +37,11 @@ h1 {
     left: 300px;
     right: 0;
     z-index: 999;
+    display: none;
+
+    &.active {
+        display: block;
+    }
     
     .lds-ring {
         display: inline-block;

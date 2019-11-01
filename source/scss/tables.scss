@@ -11,8 +11,16 @@
         background: #fbfbfb;
 
         th {
-            padding: .75rem;
             font-weight: bold;
         }
+    }
+
+    th, td {
+        padding: .75rem;
+    }
+
+    td {
+        border-top: 1px solid #dee2e6;
+        text-align: center;
     }
 }

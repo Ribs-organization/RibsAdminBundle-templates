@@ -1,14 +1,18 @@
-.ribs-table {
-    background: transparent;
+table {
+    background: $table-background;
     width: 100%;
 
     &.dark {
-        background: #212529;
-        color: #ffffff;
+        background: $table-dark-background;
+        color: $table-dark-color;
+
+        thead {
+            background: $table-thead-dark-background;
+        }
     }
 
     thead {
-        background: #fbfbfb;
+        background: $table-thead-background;
 
         th {
             font-weight: bold;
@@ -20,7 +24,7 @@
     }
 
     td {
-        border-top: 1px solid #dee2e6;
+        border-top: 1px solid $table-td-border;
         text-align: center;
     }
 }

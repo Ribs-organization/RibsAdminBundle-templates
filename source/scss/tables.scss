@@ -1,0 +1,18 @@
+.ribs-table {
+    background: transparent;
+    width: 100%;
+
+    &.dark {
+        background: #212529;
+        color: #ffffff;
+    }
+
+    thead {
+        background: #fbfbfb;
+
+        th {
+            padding: .75rem;
+            font-weight: bold;
+        }
+    }
+}

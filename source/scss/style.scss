@@ -10,6 +10,7 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "header";
 @import "main";
 @import "form";
+@import "tables";
 
 @import "components/buttons";
 @import "components/spacement";
@@ -18,6 +19,7 @@ html, body {
     font-size: 15px;
     font-family: $main-font;
     background: $body-background;
+    color: $body-color;
 }
 
 main {

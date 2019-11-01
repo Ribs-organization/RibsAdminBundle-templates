@@ -30,6 +30,19 @@ main {
         border-radius: .625rem;
         margin-bottom: 1.5rem;
         overflow: hidden;
+
+        &.dark {
+            background: $main-block-dark-background;
+            color: $main-block-dark-color;
+
+            header h5 {
+                color: $main-block-dark-header-title-color;
+            }
+
+            h6 {
+                color: $main-block-dark-color;
+            }
+        }
         
         header {
             padding: 1rem 1rem;
@@ -44,7 +57,7 @@ main {
         }
         
         h6 {
-            color: $main-block-h6-color;
+            color: $main-block-dark-h6-color;
             font-weight: bold;
             margin-bottom: .5rem;
         }

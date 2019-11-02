@@ -69,7 +69,7 @@ class RibsAjax {
   }
 
   /**
-   * method to laod a specifiq page by call this url
+   * method to load a specific page by call this url
    * @param pageUrl
    */
   loadPage(pageUrl) {

@@ -14,10 +14,8 @@ table {
     thead {
         background: $table-thead-background;
 
-        &.with-bt {
-            th {
-                border-top: 1px solid $table-td-border;
-            }
+        &.with-bt th {
+            border-top: 1px solid $table-td-border;
         }
 
         th {

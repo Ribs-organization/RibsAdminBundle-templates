@@ -8,7 +8,7 @@ class RibsAjax {
    * @param baseUrl
    * @param progressBarTag
    */
-  constructor(whereLoadTag, LinksToTriggerTag, baseUrl = '', progressBarTag = 'none') {
+  constructor(whereLoadTag, LinksToTriggerTag, progressBarTag = 'none', baseUrl = '') {
     this.whereLoadTag = document.querySelector(whereLoadTag);
     this.LinksToTriggerTag = document.querySelector(LinksToTriggerTag);
     this.api = new RibsApi(baseUrl);
@@ -40,10 +40,25 @@ class RibsAjax {
     event.preventDefault();
     const href = event.currentTarget.href;
 
-    this.api.get(href, 'html')
-      .then(data => {
-        this.whereLoadTag.innerHTML = data;
-      });
+    this.loadPage(href);
+  }
+
+  /**
+   * method to show progress bar tag
+   */
+  showProgressBar() {
+    if (this.progressBarTag !== 'none' && this.progressBarTag) {
+      this.progressBarTag.classList.add('active');
+    }
+  }
+
+  /**
+   * method to hide progress bar tag
+   */
+  hideProgressBar() {
+    if (this.progressBarTag !== 'none' && this.progressBarTag) {
+      this.progressBarTag.classList.remove('active');
+    }
   }
 
   /**
@@ -51,9 +66,11 @@ class RibsAjax {
    * @param pageUrl
    */
   loadPage(pageUrl) {
+    this.showProgressBar();
     this.api.get(pageUrl, 'html')
       .then(data => {
         this.whereLoadTag.innerHTML = data;
+        this.hideProgressBar();
       });
   }
 }

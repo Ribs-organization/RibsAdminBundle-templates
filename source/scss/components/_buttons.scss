@@ -1,6 +1,6 @@
 /* --- general ---*/
 $ribs-button-box-shadow-hover: rgba(0,0,0,.05);
-$ribs-button-box-shadow-active: inset 0 3px 5px rgba(0,0,0,.125);;
+$ribs-button-box-shadow-active: inset 0 3px 5px rgba(0,0,0,.125);
 
 /* --- specific colors primary (general) --- */
 $ribs-button-color: #ffffff;
@@ -92,7 +92,7 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
     line-height: 1.125;
     border-radius: .25rem;
     transition: all 250ms cubic-bezier(.27,.01,.38,1.06);
-    color: $ribs-button-color;
+    color: $ribs-button-color !important;
     border-color: $ribs-button-border;
     background: $ribs-button-background;
     
@@ -101,14 +101,14 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
     }
     
     &:hover {
-        color: $ribs-button-color-hover;
+        color: $ribs-button-color-hover !important;
         border-color: $ribs-button-border-hover;
         background: $ribs-button-background-hover;
         box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-box-shadow-hover1;
     }
 
     &:active {
-        color: $ribs-button-color-hover;
+        color: $ribs-button-color-hover !important;
         background-color: $ribs-button-background-hover;
         border-color: $ribs-button-border-active;
         box-shadow: $ribs-button-box-shadow-active;
@@ -116,28 +116,28 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
     &.outline {
         background: transparent;
-        color: $ribs-button-background;
+        color: $ribs-button-background !important;
 
         &:hover {
-            color: $ribs-button-color-hover;
+            color: $ribs-button-color-hover !important;
             background: $ribs-button-background;
         }
     }
     
     &.secondary {
-        color: $ribs-button-secondary-color;
+        color: $ribs-button-secondary-color !important;
         border-color: $ribs-button-secondary-border;
         background: $ribs-button-secondary-background;
         
         &:hover {
-            color: $ribs-button-secondary-color-hover;
+            color: $ribs-button-secondary-color-hover !important;
             border-color: $ribs-button-secondary-border-hover;
             background: $ribs-button-secondary-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-secondary-box-shadow-hover1;
         }
 
         &:active {
-            color: $ribs-button-color-hover;
+            color: $ribs-button-color-hover !important;
             background-color: $ribs-button-secondary-background-hover;
             border-color: $ribs-button-secondary-border-active;
             box-shadow: $ribs-button-box-shadow-active;
@@ -145,29 +145,29 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
         &.outline {
             background: transparent;
-            color: $ribs-button-secondary-background;
+            color: $ribs-button-secondary-background !important;
 
             &:hover {
-                color: $ribs-button-secondary-color-hover;
+                color: $ribs-button-secondary-color-hover !important;
                 background: $ribs-button-secondary-background;
             }
         }
     }
     
     &.success {
-        color: $ribs-button-success-color;
+        color: $ribs-button-success-color !important;
         border-color: $ribs-button-success-border;
         background: $ribs-button-success-background;
         
         &:hover {
-            color: $ribs-button-success-color-hover;
+            color: $ribs-button-success-color-hover !important;
             border-color: $ribs-button-success-border-hover;
             background: $ribs-button-success-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-success-box-shadow-hover1;
         }
 
         &:active {
-            color: $ribs-button-color-hover;
+            color: $ribs-button-color-hover !important;
             background-color: $ribs-button-success-background-hover;
             border-color: $ribs-button-success-border-active;
             box-shadow: $ribs-button-box-shadow-active;
@@ -175,29 +175,29 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
         &.outline {
             background: transparent;
-            color: $ribs-button-success-background;
+            color: $ribs-button-success-background !important;
 
             &:hover {
-                color: $ribs-button-success-color-hover;
+                color: $ribs-button-success-color-hover !important;
                 background: $ribs-button-success-background;
             }
         }
     }
     
     &.danger {
-        color: $ribs-button-danger-color;
+        color: $ribs-button-danger-color !important;
         border-color: $ribs-button-danger-border;
         background: $ribs-button-danger-background;
         
         &:hover {
-            color: $ribs-button-danger-color-hover;
+            color: $ribs-button-danger-color-hover !important;
             border-color: $ribs-button-danger-border-hover;
             background: $ribs-button-danger-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-danger-box-shadow-hover1;
         }
 
         &:active {
-            color: $ribs-button-color-hover;
+            color: $ribs-button-color-hover !important;
             background-color: $ribs-button-danger-background-hover;
             border-color: $ribs-button-danger-border-active;
             box-shadow: $ribs-button-box-shadow-active;
@@ -205,7 +205,7 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
         &.outline {
             background: transparent;
-            color: $ribs-button-danger-background;
+            color: $ribs-button-danger-background !important;
 
             &:hover {
                 color: $ribs-button-danger-color-hover;
@@ -215,19 +215,19 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
     }
     
     &.warning {
-        color: $ribs-button-warning-color;
+        color: $ribs-button-warning-color !important;
         border-color: $ribs-button-warning-border;
         background: $ribs-button-warning-background;
         
         &:hover {
-            color: $ribs-button-warning-color-hover;
+            color: $ribs-button-warning-color-hover !important;
             border-color: $ribs-button-warning-border-hover;
             background: $ribs-button-warning-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-warning-box-shadow-hover1;
         }
 
         &:active {
-            color: $ribs-button-warning-color-hover;
+            color: $ribs-button-warning-color-hover !important;
             background-color: $ribs-button-warning-background-hover;
             border-color: $ribs-button-warning-border-active;
             box-shadow: $ribs-button-box-shadow-active;
@@ -235,29 +235,29 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
         &.outline {
             background: transparent;
-            color: $ribs-button-warning-color-hover;
+            color: $ribs-button-warning-color-hover !important;
 
             &:hover {
-                color: $ribs-button-warning-color-hover;
+                color: $ribs-button-warning-color-hover !important;
                 background: $ribs-button-warning-background;
             }
         }
     }
 
     &.info {
-        color: $ribs-button-info-color;
+        color: $ribs-button-info-color !important;
         border-color: $ribs-button-info-border;
         background: $ribs-button-info-background;
 
         &:hover {
-            color: $ribs-button-info-color-hover;
+            color: $ribs-button-info-color-hover !important;
             border-color: $ribs-button-info-border-hover;
             background: $ribs-button-info-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-info-box-shadow-hover1;
         }
 
         &:active {
-            color: $ribs-button-info-color-hover;
+            color: $ribs-button-info-color-hover !important;
             background-color: $ribs-button-info-background-hover;
             border-color: $ribs-button-info-border-active;
             box-shadow: $ribs-button-box-shadow-active;
@@ -265,29 +265,29 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
         &.outline {
             background: transparent;
-            color: $ribs-button-info-background;
+            color: $ribs-button-info-background !important;
 
             &:hover {
-                color: $ribs-button-info-color-hover;
+                color: $ribs-button-info-color-hover !important;
                 background: $ribs-button-info-background;
             }
         }
     }
 
     &.dark {
-        color: $ribs-button-dark-color;
+        color: $ribs-button-dark-color !important;
         border-color: $ribs-button-dark-border;
         background: $ribs-button-dark-background;
 
         &:hover {
-            color: $ribs-button-dark-color-hover;
+            color: $ribs-button-dark-color-hover !important;
             border-color: $ribs-button-dark-border-hover;
             background: $ribs-button-dark-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-dark-box-shadow-hover1;
         }
 
         &:active {
-            color: $ribs-button-info-color-hover;
+            color: $ribs-button-info-color-hover !important;
             background-color: $ribs-button-dark-background-hover;
             border-color: $ribs-button-dark-border-active;
             box-shadow: $ribs-button-box-shadow-active;
@@ -295,29 +295,29 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
         &.outline {
             background: transparent;
-            color: $ribs-button-dark-background;
+            color: $ribs-button-dark-background !important;
 
             &:hover {
-                color: $ribs-button-dark-color-hover;
+                color: $ribs-button-dark-color-hover !important;
                 background: $ribs-button-dark-background;
             }
         }
     }
 
     &.white {
-        color: $ribs-button-white-color;
+        color: $ribs-button-white-color !important;
         border-color: $ribs-button-white-border;
         background: $ribs-button-white-background;
 
         &:hover {
-            color: $ribs-button-white-color-hover;
+            color: $ribs-button-white-color-hover !important;
             border-color: $ribs-button-white-border-hover;
             background: $ribs-button-white-background-hover;
             box-shadow: 0 5px 15px $ribs-button-box-shadow-hover, 0 4px 10px $ribs-button-white-box-shadow-hover1;
         }
 
         &:active {
-            color: $ribs-button-info-color-hover;
+            color: $ribs-button-info-color-hover !important;
             background-color: $ribs-button-background-hover;
             border-color: $ribs-button-border-active;
             box-shadow: $ribs-button-box-shadow-active;
@@ -325,10 +325,10 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
 
         &.outline {
             background: transparent;
-            color: $ribs-button-white-color;
+            color: $ribs-button-white-color !important;
 
             &:hover {
-                color: $ribs-button-white-color-hover;
+                color: $ribs-button-white-color-hover !important;
                 background: $ribs-button-white-background;
             }
         }

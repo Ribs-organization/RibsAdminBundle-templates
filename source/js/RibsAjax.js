@@ -10,6 +10,7 @@ class RibsAjax {
    */
   constructor(whereLoadTag, LinksToTriggerTag, progressBarTag = 'none', baseUrl = '') {
     this.whereLoadTag = document.querySelector(whereLoadTag);
+    this.LinksToTriggerClassString = LinksToTriggerTag;
     this.LinksToTriggerTag = document.querySelector(LinksToTriggerTag);
     this.api = new RibsApi(baseUrl);
     this.progressBarTag = progressBarTag !== 'none' ? document.querySelector(progressBarTag) : 'none';
@@ -26,7 +27,13 @@ class RibsAjax {
    * that has no ribs-no-ajax class
    */
   addClickEventOnLinks() {
-    const links = this.LinksToTriggerTag.querySelectorAll('a:not(.ribs-no-ajax)');
+    let links = [];
+    if (this.LinksToTriggerTag.tagName.toLowerCase() === 'a') {
+      links = document.querySelectorAll(`a:not(.ribs-no-ajax)${this.LinksToTriggerClassString}`);
+    } else {
+      links = this.LinksToTriggerTag.querySelectorAll('a:not(.ribs-no-ajax)');
+    }
+
     links.forEach((element) => {
       element.addEventListener('click', event => this.triggerLinkClick(event))
     });

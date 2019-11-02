@@ -47,6 +47,13 @@ main {
         header {
             padding: 1rem 1rem;
             border-bottom: 1px solid $main-block-header-border;
+
+            &.with-image {
+                min-height: 10.3125rem;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
             
             h5 {
                 font-weight: 500;

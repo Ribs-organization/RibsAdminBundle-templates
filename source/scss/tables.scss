@@ -39,6 +39,11 @@ table {
             letter-spacing: inherit;
             word-spacing: inherit;
             cursor: pointer;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: $table-action-hover;
+            }
         }
     }
 

@@ -54,8 +54,9 @@ main {
                 background-position: center;
                 background-repeat: no-repeat;
                 position: relative;
+                margin-bottom: 1rem;
 
-                a {
+                > a {
                     top: .9375rem;
                     right: .9375rem;
                     position: absolute;
@@ -66,14 +67,40 @@ main {
                     font-weight: 500;
                     display: inline-block;
                 }
+
+                div {
+                    transform: translateY(50%);
+                    margin-left: 1.5625rem;
+                    position: absolute;
+                    bottom: 0;
+
+                    a {
+                        width: 2.1875rem;
+                        height: 2.1875rem;
+                        box-shadow: 0 0 0 0.125rem #fff, 0 0.1875rem 0.4375rem rgba(90,97,105,.5);
+                        display: block;
+                        background-position: center;
+                        background-size: cover;
+                        background-color: transparent;
+                        border-radius: 50%;
+                    }
+                }
             }
-            
-            h5 {
-                font-weight: 500;
-                font-size: 1rem;
-                line-height: 1.5rem;
-                color: $main-block-header-title-color;
-            }
+        }
+
+        h4 {
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            font-weight: 500;
+            margin-bottom: .75rem;
+            color: $main-block-header-title-color;
+        }
+
+        h5 {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            color: $main-block-header-title-color;
         }
         
         h6 {

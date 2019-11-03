@@ -95,6 +95,10 @@ $ribs-button-white-box-shadow-hover1: rgba(129,142,163,.3);
     color: $ribs-button-color !important;
     border-color: $ribs-button-border;
     background: $ribs-button-background;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
     
     &:not(:disabled) {
         cursor: pointer;

@@ -47,6 +47,7 @@ header#main {
             display: inline-block;
             border-left: 1px solid $header-border-link;
             padding:  0.6667rem;
+            line-height: inherit;
             
             &#notif {
                 width: 30px;

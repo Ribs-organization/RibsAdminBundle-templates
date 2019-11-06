@@ -49,6 +49,10 @@ form.ribs-form {
                 border-color: $form-group-input-focus-border;
                 box-shadow: 0 0.313rem 0.719rem $form-group-input-shadow-hover, 0 0.156rem 0.125rem $form-group-input-shadow-hover1;
             }
+            
+            &.is-select {
+                padding: .55rem .75rem;
+            }
 
             &.is-valid {
                 border-color: $form-group-input-valid-border;

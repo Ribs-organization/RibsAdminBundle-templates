@@ -17,6 +17,8 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "components/list";
 @import "components/utils";
 
+@import "pages/user-profile";
+
 html, body {
     font-size: 15px;
     font-family: $main-font;

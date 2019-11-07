@@ -2,11 +2,13 @@ const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
     'js/index': './source/js/index.js',
-    'js/tables': './source/js/tables.js'
+    'js/tables': './source/js/tables.js',
+    'js/tiny': './source/js/tiny.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -52,6 +54,9 @@ module.exports = {
       filename: 'css/style.min.css',
       chunkFilename:'css/style.min.css',
     }),
+    new CopyWebpackPlugin([
+      {from:'./node_modules/tinymce/skins', to:'js/skins'}
+    ])
   ],
   optimization: {
     minimizer: [

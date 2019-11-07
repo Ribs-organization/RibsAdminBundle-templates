@@ -1,83 +1,88 @@
 @for $i from 0 through 10 {
     .m#{$i} {
-        margin: #{$i}rem;
+        margin: #{$i}rem !important;
     }
 
     .m#{$i}-5 {
-        margin: #{$i+0.5}rem;
+        margin: #{$i+0.5}rem !important;
     }
 
     .mt#{$i} {
-        margin-top: #{$i}rem;
+        margin-top: #{$i}rem !important;
     }
 
     .mt#{$i}-5 {
-        margin-top: #{$i+0.5}rem;
+        margin-top: #{$i+0.5}rem !important;
     }
 
     .mb#{$i} {
-        margin-bottom: #{$i}rem;
+        margin-bottom: #{$i}rem !important;
     }
 
     .mb#{$i}-5 {
-        margin-bottom: #{$i+0.5}rem;
+        margin-bottom: #{$i+0.5}rem !important;
     }
 
     .ml#{$i} {
-        margin-left: #{$i}rem;
+        margin-left: #{$i}rem !important;
     }
 
     .ml#{$i}-5 {
-        margin-left: #{$i+0.5}rem;
+        margin-left: #{$i+0.5}rem !important;
     }
 
     .mr#{$i} {
-        margin-right: #{$i}rem;
+        margin-right: #{$i}rem !important;
     }
 
     .mr#{$i}-5 {
-        margin-right: #{$i+0.5}rem;
+        margin-right: #{$i+0.5}rem !important;
     }
 
     .p#{$i} {
-        margin: #{$i}rem;
+        margin: #{$i}rem !important;
     }
 
     .p#{$i}-5 {
-        margin: #{$i+0.5}rem;
+        margin: #{$i+0.5}rem !important;
     }
 
     .pt#{$i} {
-        margin-top: #{$i}rem;
+        margin-top: #{$i}rem !important;
     }
 
     .pt#{$i}-5 {
-        margin-top: #{$i+0.5}rem;
+        margin-top: #{$i+0.5}rem !important;
     }
 
     .pb#{$i} {
-        margin-bottom: #{$i}rem;
+        margin-bottom: #{$i}rem !important;
     }
 
     .pb#{$i}-5 {
-        margin-bottom: #{$i+0.5}rem;
+        margin-bottom: #{$i+0.5}rem !important;
     }
 
     .pl#{$i} {
-        margin-left: #{$i}rem;
+        margin-left: #{$i}rem !important;
     }
 
     .pl#{$i}-5 {
-        margin-left: #{$i+0.5}rem;
+        margin-left: #{$i+0.5}rem !important;
     }
 
     .pr#{$i} {
-        margin-right: #{$i}rem;
+        margin-right: #{$i}rem !important;
     }
 
     .pr#{$i}-5 {
-        margin-right: #{$i+0.5}rem;
+        margin-right: #{$i+0.5}rem !important;
     }
+}
+
+.m-auto {
+    margin: auto;
+    display: block;
 }
 
 .no-m {

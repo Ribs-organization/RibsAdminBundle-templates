@@ -1,6 +1,6 @@
 {
     "name": "ribs-admin-bundle-templates",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This package contain html css and js of RibsAdminBundle",
     "main": "index.js",
     "scripts": {
@@ -47,7 +47,6 @@
         "ribs-checkbox": "^1.1.9",
         "ribs-core": "^0.0.9-4",
         "ribs-grid": "^1.0.5",
-        "ribs-reset-css": "^1.0.2",
-        "tinymce": "^5.1.1"
+        "ribs-reset-css": "^1.0.2"
     }
 }

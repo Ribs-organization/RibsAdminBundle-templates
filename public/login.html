@@ -12,7 +12,7 @@
 
 			<div class="login-form active" id="login">
 				<form action="#" class="ribs-form" method="POST">
-					<img src="" alt="">
+					<img src="images/ribs.png" alt="">
 
 					<h1 class="mb2">Connection to Ribs</h1>
 
@@ -32,9 +32,7 @@
 						<button type="submit" class="ribs-button">Connection</button>
 					</div>
 
-					{% if csrf_token %}
 					<input type="hidden" name="_csrf_token" value="{{ csrf_token }}"/>
-					{% endif %}
 				</form>
 
 				<div class="link">
@@ -44,7 +42,7 @@
 
 			<div class="login-form" id="mdp-oublie">
 				<form action="" method="POST">
-					<img src="{{ asset('bundles/ribsadmin/images/ribs.png') }}" alt="">
+					<img src="images/ribs.png" alt="">
 
 					<h1>Forgot your password</h1>
 
@@ -62,5 +60,7 @@
 				</div>
 			</div>
 		</div>
+
+		<script src="../dist/js/login.js"></script>
 	</body>
 </html>

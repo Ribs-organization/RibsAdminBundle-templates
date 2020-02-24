@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     'js/index': './source/js/index.js',
     'js/tables': './source/js/tables.js',
+    'js/form': './source/js/form.js',
     'js/login': ['./source/js/login/particles.js', './source/js/login/app.js']
   },
   output: {

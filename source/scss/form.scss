@@ -152,5 +152,20 @@ form.ribs-form {
                 border-bottom-right-radius: 0;
             }
         }
+        
+        .result-autocomplete {
+            position: absolute;
+            background: $autocomplete-result-background;
+            color: $autocomplete-result-color;
+            box-shadow: 0 2px 0 $autocomplete-result-shadow,
+            0 4px 8px $autocomplete-result-shadow1,
+            0 10px 10px $autocomplete-result-shadow2,
+            0 7px 70px $autocomplete-result-shadow3;
+            width: 100%;
+            
+            ul li {
+                padding: 10px;
+            }
+        }
     }
 }

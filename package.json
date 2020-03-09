@@ -1,6 +1,6 @@
 {
     "name": "ribs-admin-bundle-templates",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "This package contain html css and js of RibsAdminBundle",
     "main": "index.js",
     "scripts": {

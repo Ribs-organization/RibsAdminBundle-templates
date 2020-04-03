@@ -172,6 +172,7 @@ form.ribs-form {
             
             &:hover {
                 border-left-color: $form-group-input-focus-border;
+                cursor: pointer;
             }
         }
     }

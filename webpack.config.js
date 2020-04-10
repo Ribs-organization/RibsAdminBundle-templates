@@ -9,8 +9,8 @@ module.exports = {
     'js/tables': './source/js/tables.js',
     'js/form': './source/js/form.js',
     'js/login': ['./source/js/login/particles.js', './source/js/login/app.js'],
-    'css/style': './source/scss/mobile.js',
-    'css/mobile': './source/scss/style.js'
+    'css/style': './source/scss/style.js',
+    'css/mobile': './source/scss/mobile.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),

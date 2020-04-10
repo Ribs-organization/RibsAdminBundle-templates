@@ -8,7 +8,9 @@ module.exports = {
     'js/index': './source/js/index.js',
     'js/tables': './source/js/tables.js',
     'js/form': './source/js/form.js',
-    'js/login': ['./source/js/login/particles.js', './source/js/login/app.js']
+    'js/login': ['./source/js/login/particles.js', './source/js/login/app.js'],
+    'css/style': './source/scss/mobile.js',
+    'css/mobile': './source/scss/style.js'
   },
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -51,8 +53,8 @@ module.exports = {
   plugins: [
     new UglifyJsPlugin(),
     new MiniCssExtractPlugin({
-      filename: 'css/style.min.css',
-      chunkFilename:'css/style.min.css',
+      filename: '[name].min.css',
+      chunkFilename:'[name].min.css',
     })
   ],
   optimization: {

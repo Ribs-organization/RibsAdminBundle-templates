@@ -1,0 +1,35 @@
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~ribs-checkbox/source/scss/style";
+@import "~ribs-reset-css";
+@import "~ribs-grid";
+@import "variables";
+@import "form";
+@import "tables";
+@import "login";
+@import "mobile/header";
+
+@import "components/buttons";
+@import "components/spacement";
+@import "components/list";
+@import "components/utils";
+
+@import "pages/user-profile";
+
+html, body {
+    font-size: 15px;
+    font-family: $main-font;
+    background: $body-background;
+    color: $body-color;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+h1 {
+    margin: 0;
+}

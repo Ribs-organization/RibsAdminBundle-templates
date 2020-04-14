@@ -10,6 +10,7 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "tables";
 @import "login";
 @import "mobile/header";
+@import "mobile/footer";
 
 @import "components/buttons";
 @import "components/spacement";
@@ -19,7 +20,7 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "pages/user-profile";
 
 html, body {
-    font-size: 15px;
+    font-size: 20px;
     font-family: $main-font;
     background: $body-background;
     color: $body-color;
@@ -27,7 +28,6 @@ html, body {
 
 main {
     margin-top: 20px;
-    margin-left: 300px;
 }
 
 h1 {

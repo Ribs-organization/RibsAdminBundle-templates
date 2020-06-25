@@ -1,0 +1,26 @@
+ul.ribs-pagination {
+    float: right;
+    margin-bottom: 1.5rem;
+    
+    li {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0 3px;
+        
+        &.active {
+            color: $pagination-active-color
+        }
+        
+        .active {
+            color: $pagination-active-color;
+            
+            a {
+                color: $pagination-active-color
+            }
+        }
+        
+        a.active {
+            color: $pagination-active-color
+        }
+    }
+}

@@ -12,7 +12,7 @@ class RibsAjax {
     this.whereLoadTag = document.querySelector(whereLoadTag);
     this.LinksToTriggerClassString = LinksToTriggerTag;
     this.LinksToTriggerTag = document.querySelector(LinksToTriggerTag);
-    this.api = new RibsApi(baseUrl);
+    this.api = new RibsApi(baseUrl, 'external');
     this.progressBarTag = progressBarTag !== 'none' ? document.querySelector(progressBarTag) : 'none';
 
     if (!this.whereLoadTag || !this.progressBarTag || !this.LinksToTriggerTag) {
